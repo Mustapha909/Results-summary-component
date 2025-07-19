@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -23,10 +22,13 @@
   <body>
     <main class="container">
       <section class="result">
-        <h1>Your Result</h1>
-        <p>76 of 100</p>
+        <h1 class="result__title">Your Result</h1>
+        <div class="circle-container">
+          <div class="score_circle">76</div>
+          <div class="of">of 100</div>
+        </div>
         <div class="result__details">
-          <p>Great</p>
+          <p class="great_text">Great</p>
           <p class="result__text">
             You scored higher than 65% of the people who have taken these tests.
           </p>
@@ -40,7 +42,7 @@
               <img src="./assets/images/icon-reaction.svg" alt="" />
               <p class="reaction_paragraph">Reaction</p>
             </div>
-            <p class="score_paragraph">80 / <span>100</spa></span>
+            <p class="score_paragraph">80 / <span>100</span></p>
           </div>
 
           <div class="memory score">
@@ -67,8 +69,8 @@
             <p class="score_paragraph">72 / <span>100</span></p>
           </div>
         </div>
-        <button class="Continue-btn">Continue</button>
 
+        <button class="Continue-btn">Continue</button>
       </section>
     </main>
   </body>
